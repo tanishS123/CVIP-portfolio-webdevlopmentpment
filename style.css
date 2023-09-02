@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@200;300&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins','sans-serif';
+}
+.header{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  padding: 20px 10%;
+  background:transparent;
+  align-items: center;
+  justify-content: space-between;
+  display:flex;
+  z-index: 100%;
+}
+.logo{
+  font-size: 30px;
+  color:#031540;
+  text-decoration: none;
+  font-weight:bolder;
+}
+.navbar a{
+  font-size: 18px;
+  color:white;
+  font-weight: bolder;
+  margin-left: 35px;
+  transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active{
+  color:blue;
+}
+.home{
+  height: 100vh;
+  background: linear-gradient(-90deg,#031540 65%, #fff 35%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 10%;
+
+}
+
+.home-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom:20px;
+  width: 500px;
+  height: 500px;
+  background: #031540;
+  border-radius: 50%;
+  border:25px solid #fff;
+  outline: 25px solid  #031540;
+}
+.home-image img{
+  position: relative;
+  max-width: 380px;
+
+}
+.home-content{
+  max-width:600px;
+  color:white;
+  text-align: right;
+  }
+  .home-content h1{
+    font-size:55px;
+    line-height:1.2
+  }
+  .home-content h3{
+    font-size: 40px;
+    color:blue;
+    -webkit-text-stroke:1px cyan;
+  }
+  .home content p {
+   font-size: 16px;
+ margin-top: 20px;
+   }
+   .home-sci a{
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border:2px solid white;
+    border-radius: 50%;
+    font-size: 25px;
+    color: cyan;
+    text-decoration: none;
+    margin-left: 12px;
+    transition: .3s;
+}
+.home-sci a:hover{
+  background:blue;;
+  color: white;
+}
+
+.button{
+  padding: 12px 34px;
+  background: cyan;
+  border-radius: 50px;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  box-shadow: 0 0 10px cyan;
+}
+.button:hover{
+  background-color:blue;
+}
